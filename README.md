@@ -12,14 +12,14 @@ Incorrect decisions in loan approvals can have profound consequences. Approving 
 
 Dataset: https://www.kaggle.com/datasets/mirbektoktogaraev/should-this-loan-be-approved-or-denied
 
-The dataset used is obtained from Kaggle. It contains information on past loan applications made by small businesses, with various attributes like loan amount, location, industry sector, employment details, loan status etc.
+The dataset used is obtained from Kaggle. It contains information on past loan applications made by small businesses, with various attributes like loan amount, location, industry sector, employment details, loan status, etc.
 
 Some key columns: 🗂
 
 - Loan Number: Unique ID for loan application
 - Customer Name: Name of loan applicant
 - City, State, Zip: Location details
-- Bank Name: Name of bank receiving the application
+- Bank Name: Name of the bank receiving the application
 - NAICS Code: Industry code for applicant's business
 - Term: Requested loan term
 - MIS Status: Current status of the loan e.g. Paid In Full, Charged Off
@@ -33,6 +33,7 @@ The analysis employed a two-fold approach, utilizing both Logistic Regression an
 ![Selected Features](https://github.com/jatinkam/Should-This-Loan-be-Approved-or-Not/assets/113269173/cf737c31-d894-4918-9545-d8f42e80abd8)
 
 - Preprocessing Steps: 🧹
+
 Handled missing values: Dropped rows or imputed values based on the nature of missing data.
 
 Scaled numeric features: StandardScaler was applied to ensure uniform scales.
